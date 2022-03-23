@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.1em
+}
+
+h1 {
+  font-size: 90px;
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  color: #FFD32D;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Hubballi', cursive;
+  font-size: 2.5rem;
+  color: #008E89;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3, h4 {
+  font-family: 'Hubballi', cursive;
+  color: #085E7D;
+}
+
+p {
+  color: #084594;
+  line-height: 1.7;
+}
+
+hr {
+  border: dotted #008E89 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 120px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #085E7D;
+}
+
+.top-container {
+  background-color: #085E7D;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+
+.middle-container {
+ background-color: #FFD32D;
+ padding: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #008E89;
+  padding: 40px 0 20px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.7rem;
+  font-family: serif;
+  padding-top: 10px;
+}
+
+.top-tulip {
+  position: absolute;
+  right: 20%;
+  top: 70px;
+  height: 100px;
+}
+
+.bottom-tulip {
+  position: absolute;
+  left: 20%;
+  bottom: 170px;
+  height: 100px;
+}
+
+.my-image {
+  padding-top: 30px;
+  height: 200px;
+}
+
+.bank {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.student {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background: #085E7D;
+  background-image: -webkit-linear-gradient(top, #085E7D, #085E7D);
+  background-image: -moz-linear-gradient(top, #085E7D, #085E7D);
+  background-image: -ms-linear-gradient(top, #085E7D, #085E7D);
+  background-image: -o-linear-gradient(top, #085E7D, #085E7D);
+  background-image: linear-gradient(to bottom, #085E7D, #085E7D);
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: 'Hubballi', cursive;
+  color: #FFD32D;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #008E89;
+  background-image: -webkit-linear-gradient(top, #008E89, #008E89);
+  background-image: -moz-linear-gradient(top, #008E89, #008E89);
+  background-image: -ms-linear-gradient(top, #008E89, #008E89);
+  background-image: -o-linear-gradient(top, #008E89, #008E89);
+  background-image: linear-gradient(to bottom, #008E89, #008E89);
+}
+
+.footer-link {
+  color: #FFD32D;
+  padding-left: 20px;
+}
